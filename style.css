@@ -2,11 +2,48 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-auto-rows: minmax(50px, auto);
-    position: relative;
-    padding: 40px;
-    gap: 8px;
+    gap: 52px;
+}
+ 
+.one {
+    grid-column: 1/6;
 }
 
-#userInput {
-    
+.two {
+    grid-column: 1/6;
+}
+
+.three {
+    grid-column: 1/6;
+}
+
+.one #userInput {
+    border: 2px solid;
+    background-color: transparent;
+    width: 100%;
+    height: 50%;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.two #userInput2 {
+    border: 2px solid;
+    background-color: transparent;
+    width: 100%;
+    height: 50%;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.three #userInput3 {
+    border: 2px solid;
+    background-color: transparent;
+    width: 100%;
+    width: 100%;
+    height: 50%;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 5px;
 }
