@@ -1,5 +1,11 @@
 body {
-    background-color: ;
+    background-color: rgb(250, 244, 244);
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    letter-spacing: 2px;
 }
 
 .container {
