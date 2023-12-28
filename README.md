@@ -3,6 +3,7 @@
  - [Screenshot](#screenshot)
  ### Screenshot
 
-<img src="/screenshots/Screenshot%202023-12-28%20130119.png">
-![](/screenshots/Screenshot%202023-12-28%20130119.png)
-![](/screenshots/Screenshot%202023-12-28%20130225.png)
+<img src="./screenshots/Screenshot 2023-12-28 132249.png">
+
+<img src="./screenshots/Screenshot 2023-12-28 132556.png">
+
