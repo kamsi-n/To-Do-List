@@ -2,30 +2,31 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>To-Do List</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/mrs-beasley" type="text/css"/>
+        <title>To-Do List</title>
     </head>
     <body>
-        <h1>TO DO</h1>
         <div class="container">
-            <div class="one">
-                <input id="check" type="checkbox">
-                <input id="userInput" type="text">
-                <button id="btn1">CLEAR</button>
+            <h1>TO - DO</h1>
+            <div class="createTask">
+                <textarea name="" id="inputTask" cols="30" rows="10" placeholder="Create Task"></textarea>
+                <button id="inputBtn"><i class="fa-solid fa-plus"></i></button>
             </div>
-            <div class="two">
-                <input id="check2" type="checkbox">
-                <input id="userInput2" type="text">
-                <button id="btn2">CLEAR</button>
-            </div>
-            <div class="three">
-                <input id="check3" type="checkbox">
-                <input id="userInput3" type="text">
-                <button id="btn3">CLEAR</button>
-            </div>
+            <p id="msg"></p>
+    
+            <div id="tasks">
+            </div>    
+    
+                <div id="complete">
+                    <h3>ALL TASKS DONE</h3>
+                    <i class="fa-regular fa-circle-check"></i>
+                </div>
         </div>
-     <script src="script.js"></script>
+    
+        <script src="https://kit.fontawesome.com/af2b680892.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+        
     </body>
 </html>
